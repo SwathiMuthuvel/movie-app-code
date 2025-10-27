@@ -1,7 +1,18 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
-
+#container{
+  background-image: url("/Users/swathi.m/workspace/demoproject/src/Images/Background.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
